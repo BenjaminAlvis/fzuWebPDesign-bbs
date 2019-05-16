@@ -1,6 +1,6 @@
 <?php
 
-$db_config = get_db_config();
+
 
 use Illuminate\Support\Str;
 
@@ -67,7 +67,6 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
             'host' => 'ec2-54-225-106-93.compute-1.amazonaws.com',
             'port' => '5432',
             'database' => 'd6oehpuqprvg5r',

@@ -72,9 +72,8 @@ body {
     padding: 3px;
   }
 }
-
 /* Topic Index Page */
-.topics-index-page {
+.topics-index-page, .categories-show-page {
   .topic-list {
     .nav>li>a {
       position: relative;
@@ -114,5 +113,4 @@ body {
   margin-bottom: 100px;
 }
 
-/* Topic Index Page */
-.topics-index-page, .categories-show-page {
+

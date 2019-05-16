@@ -1,5 +1,7 @@
 <?php
 
+$db_config = get_db_config();
+
 use Illuminate\Support\Str;
 
 return [

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
-
+<title>@yield('title', 'fzuBBS') - fzuBBS</title>
+  <meta name="description" content="@yield('description', 'fzuer的BBS')" />
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

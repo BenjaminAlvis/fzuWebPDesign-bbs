@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://http://fzubbs.herokuapp.com'),
+    'url' => env('APP_URL', 'http://fzubbs.herokuapp.com'),
 
     'asset_url' => env('ASSET_URL', null),
 
